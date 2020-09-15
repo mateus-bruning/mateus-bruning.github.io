@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br"> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Básico</title>
+</head>
+
+<body>
+    <p>Link para o
+        <a href="#final">final da página</a>.
+    </p>
+ 
+
+    <h1 id="topo">Isso é um cabeçalho de nível 1 - Grande</h1>
+    <h2>Isso é um cabeçalho de nível 2 - Médio</h2>
+    <h3>Isso é um cabeçalho de nível 3 - Pequeno</h3> 
+    <p>
+        Isso é um paragrafo. E vamos aproveitar para ver 
+        <br>a quebra de linha. A quebra de linha,
+        <br>é um BR.
+        <br>Existe outros cabeçalhos menores: h4, h5 e h6.
+     </p>
+        <!-- 
+                Isto é um cometário 
+                O comentário HTML não aparece no navegador.
+        -->
+        <h2>Listas</h2>
+        <!-- Há alguns tipos de listas no HTML,abaixo
+            veremos duas -->
+         <!-- LISTA ORDENADA (NUMERADA)-->
+        <h3>Lista Ordenada</h3>
+        <ol><!-- Ordered List-->
+        <li>Webdesign</li><!-- List Item (Item da Lista)-->
+        <li>Linguagem de Programação Web</li>
+        <li>Serviço de Rede e Internet</li>
+        </ol>
+
+        <h3>Lista não Ordanada</h3>
+        <ul><!-- Unordered List-->
+            <li>Webdesign</li><!--List Item (Item da Lista)-->
+            <li>Linguagem de Programação Web</li>
+            <li>Serviço de Rede e Internet</li>
+        </ul>
+
+        <h3>Citação de frase de um autor</h3>
+        <blockquote>
+            <P>Só sei que nada sei.</P>
+            <cite>Sócrates</cite>
+        </blockquote>
+
+        <h3>Ênfase e Reforço</h3>
+        <p>
+            Existem situações que nós queremos <br>
+            dar um reforço na <strong>palavra</strong> <br>
+            ou <strong>em uma frase completa.</strong>
+            O resultado disso é que fica em <strong>negrito</strong>. <br>
+        </p>
+        <p>
+            Em outras situacões, pode-se dar uma <em>Ênfase</em>. <br>
+            A ênfase pode ser dada em uma <em>palavra</em> ou <br>
+            <em>em uma frase</em>. E o resultado disso é que fica <br>
+            em <em>itálico</em>.
+        </p>
+
+        <h3>Imagem</h3>
+        <!--Para colocar imagem, precisa-se saber o endereço dela,
+        a URL da imagem, seja remoto na internet, seja local
+        no seu computador. Usa-se TAG img seguido de src e alt
+        sendo src a URL e altum texto alternativo.
+        Se estiver usando uma imagem da internet, basta copiar
+        o endereço da imagem e colar dentro de SRC:
+        height = altura
+        width = largura
+        -->
+        <img 
+             src="https://cabanadoleitor.com.br/wp-content/uploads/2019/07/o-rei-le%C3%A3o-the-lion-king-disney-04-cdl-1280x720.jpg" 
+             alt="Foto de dois leões"
+             height="500"
+             width="750"
+        >
+
+        <h3>Imagem Local</h3>
+            <img src="images/MateusBruning.jpg" alt="Foto do MateusBruning"
+             height="600"
+           width="450"
+        >
+            
+
+        <h4>Mateus Bruning</h4>
+        <p>Idade: 16 anos</p>
+        <p>Natural de <em>Brusque,</em>
+          <strong>Santa Catarina</strong>
+        </p> 
+
+        <img src="images/pato_sololento.gif" 
+             alt="Animação de uma foto de pato"
+             height="400"
+             width="650" >
+
+        <h3>Âncora ou mais popularmente o <em>Link</em></h3>
+        <!--
+            O link é a essência da linguagem HTML, pois
+            é através dele que se faz o hipertexto.
+        -->
+        <p>
+            Acesse o meu
+            <a href="https://github.com/mateus-bruning">
+                Github
+            </a>
+        </p>
+
+        <!-- Link com alvo (target blank) para nova guia/aba/janela-->
+        <a href="https://mateus-bruning.github.io/" target="_blank">
+            <p>Este é um link com alvo para o repositório.
+                Para abrir em uma nova aba.</p>
+        </a>
+        <!-- Link para a própria página.
+       Este tipo de link exige dois passos:
+       1 - Identificar o ponto para onde quer ir
+       2 - É o link propriamente dito, com #
+       -->
+       <p id="final">
+        <a href="#topo">Clique aqui</a>
+        para voltar ao início da página.
+       </p>
+ 
+
+
+<br><br><br><br><br><br>
+</body>
+</html>
